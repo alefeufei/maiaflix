@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Banner from "./components/Banner";
 
 
 function App() {
@@ -7,9 +8,10 @@ function App() {
   return (
     <>
     <Header/>
-      <h1>Hello World!</h1>
-      <p>Olá mundo</p>
-      <Footer/>
+    <Banner/>
+    <h1>Hello World!</h1>
+    <p>Olá mundo! Estou Aprendendo React</p>
+    <Footer/>
     </>
   );
 }
